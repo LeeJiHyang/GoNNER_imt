@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{819db3d9-5566-46a6-a739-547d2c5dac41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0d0e74a7-fa6d-492b-82c4-21e8d33a33a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GraphicDevice">
+      <UniqueIdentifier>{7bf33902-fa3a-4a50-943d-118c13eb951b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{d9473fa6-4d5a-429f-8f60-6f903f6710c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{f1d55911-8c8e-4c53-bf86-6415f26476da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{830c1aab-6699-4189-81e4-3283e1e0bed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Player">
+      <UniqueIdentifier>{77012914-c9b3-4f83-9ff7-733bf073700f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Image">
+      <UniqueIdentifier>{c1298cda-583d-4330-9140-377c7b17f840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager">
+      <UniqueIdentifier>{22afa651-d453-4e9f-9eb0-3b07c1cddb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Map">
+      <UniqueIdentifier>{56f02810-50a4-43be-94e1-fb2b32400b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\DesignPattern">
+      <UniqueIdentifier>{322f48ae-c244-4348-a705-91e6b1ecce8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Camera">
+      <UniqueIdentifier>{78602802-0d9d-4934-a40a-475e185db49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\Logo">
+      <UniqueIdentifier>{2f92c984-7c35-4ad0-ba3c-57d0dc40b4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\Dungeon">
+      <UniqueIdentifier>{5380cd82-c783-4540-a53a-27854b48164a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Monster">
+      <UniqueIdentifier>{fb28b784-7f55-489f-b333-b1d8ecec8c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Collision">
+      <UniqueIdentifier>{73f983f7-c40f-48d6-916e-4fb3857ac6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Key">
+      <UniqueIdentifier>{09212f0c-b065-498c-a5d0-c57b672fb4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Time">
+      <UniqueIdentifier>{4e4b2245-123d-40c4-93bc-934753b97306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Bullet">
+      <UniqueIdentifier>{3086d72c-33f9-4963-8aad-8f9df8b990b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Effect">
+      <UniqueIdentifier>{af325df0-3a3d-4f3c-9c5b-5452ae195c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Effect">
+      <UniqueIdentifier>{394c0272-e7fd-4454-8ecc-dc285ed0f16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Bubble">
+      <UniqueIdentifier>{103242da-1576-4b72-8426-d26ddf16f337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Bubble">
+      <UniqueIdentifier>{16ba7a1e-622f-4aef-91b2-f97137d81130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI">
+      <UniqueIdentifier>{9a044148-5599-4bf0-a237-b08aaa977c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\Sound">
+      <UniqueIdentifier>{4e7d3698-cb9e-46b3-a8e5-ae3da92c54fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Total.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDevice.h">
+      <Filter>03.GraphicDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>04.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>04.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>04.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageManager.h">
+      <Filter>04.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>05.Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>01.Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>99.Default\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraManager.h">
+      <Filter>05.Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogo.h">
+      <Filter>02.Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>99.Default\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CDungeon.h">
+      <Filter>02.Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>01.Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>01.Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionManager.h">
+      <Filter>05.Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyManager.h">
+      <Filter>05.Manager\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>01.Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectManager.h">
+      <Filter>05.Manager\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>01.Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CBubbleManager.h">
+      <Filter>05.Manager\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="CBubble.h">
+      <Filter>01.Object\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>05.Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>01.Object\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDevice.cpp">
+      <Filter>03.GraphicDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>04.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>04.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>04.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageManager.cpp">
+      <Filter>04.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>05.Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>01.Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraManager.cpp">
+      <Filter>05.Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogo.cpp">
+      <Filter>02.Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="CDungeon.cpp">
+      <Filter>02.Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>01.Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>01.Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionManager.cpp">
+      <Filter>05.Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyManager.cpp">
+      <Filter>05.Manager\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>01.Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectManager.cpp">
+      <Filter>05.Manager\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>01.Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CBubbleManager.cpp">
+      <Filter>05.Manager\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="CBubble.cpp">
+      <Filter>01.Object\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>05.Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>01.Object\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
